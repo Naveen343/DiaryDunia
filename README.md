@@ -1,2 +1,2 @@
 # DiaryDunia
-A web app that allows you to create, write and save your daily writings as an online Diary !
+A Web App that allows you to create, write and save your daily writings and view them in the future !
