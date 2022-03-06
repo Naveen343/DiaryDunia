@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DiaryDunia</title>
+    <style>
+        .navbar{
+            background-color: rgb(37, 96, 223);
+            border-radius: 30px;
+            font-weight: bold;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: red;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        .lcontainer textarea{
+    border: 1px solid rgb(113, 152, 224);
+    width: 65%;
+    padding: 4.5em;
+    border-radius: 1em;
+    margin-top: 1.2em;
+    box-sizing: border-box;
+}
+.lcontainer input[type=button]{
+    background-color: orange;
+    border: none;
+    width: 8%;
+    color: white;
+    font-weight: bold;
+    padding: 0.8em 2em;
+    border-radius: .5em;
+    font-size: 0.9em;
+    cursor: pointer;
+    text-align: center;
+}
+input[type=button]:hover{
+    background-color: rgb(189, 124, 3);
+font-weight: normal;
+}
+.lcontainer label{
+    font-weight: bold;
+    font-style: italic;
+}
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">View All</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+<div class="lcontainer">
+    <label for="city">Describe how was your day!</label>
+                    
+                    <p>Example : "Today, something great happened..."</p>
+    <textarea name="Start Writing" id="text" cols="30" rows="10"></textarea>
+    <input type="button" value="Save" id="cta-btn">
+</div>
+
+<div class="rcontainer">
+
+</div>
+</body>
+
+</html>
